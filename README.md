@@ -5,6 +5,8 @@
 
 For installation, please follow the [Installation Steps](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html#local-installation) provided in the **Getting Started** section. (I used the **Local Installation/PIP installation** method, which is recommended for Ubuntu 22.04.)
 
+⚠️ **The following visualization steps are NOT supported when running Isaac Sim on an A100 GPU. [Details](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/manual_livestream_clients.html)**
+
 To visualize the simulation GUI on your local machine, download the **Isaac Sim WebRTC Streaming Client** from [Download Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html). Then, add the `--livestream 2` argument when running IsaacLab on the remote computer. For example:
 
 ```
